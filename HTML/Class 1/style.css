@@ -1,0 +1,90 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
+
+
+.box{
+    width: 200px;
+    height: 200px;
+}
+
+.box1{
+    background-color: aqua;
+
+}
+
+.box2{
+    background-color: blueviolet;
+}
+
+.box3{
+    background-color: brown;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* select by tag name */
+
+p{
+    color: rgb(8, 0, 0);
+    /* background-color: green; */
+    font-size: 32px;
+    text-align: center;
+    font-weight: 600;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+
+
+body{
+    background-image: url('/vecteezy_light-cyan-background-images-hd-pictures-and-wallpaper-for_15132103.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 400px;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+/* select by id */
+.halo{
+    margin: 40px;
+    border: 5px solid red;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+/* button{
+    border: 1px solid green;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: rgb(7, 223, 147);
+    margin-left: 100px;
+
+} */
+
+.btn1{
+    background-color: black;
+    color: white;
+    border:2px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+.btn2{
+    background-color: yellow;
+    color: black;
+    border-radius: 15px;
+    padding: 10px 30px;
+    margin: 5px;
+
+}
+
+.btn3{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
